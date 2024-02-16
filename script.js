@@ -22,10 +22,16 @@ document.getElementById("reset-btn").addEventListener("click", function() {
     updateCounter();
 });
 
-document.addEventListener("keydown", function(event) {
-    if (event.key === "ArrowUp") {
-        increment();
-    } else if (event.key === "ArrowDown") {
-        decrement();
-    }
+document.querySelector(".decrement-btn").addEventListener("click", decrement);
+
+document.querySelector(".increment-btn").addEventListener("click", increment);
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "ArrowUp") {
+            increment();
+        } else if (event.key === "ArrowDown") {
+            decrement();
+        }
+    });
 });
