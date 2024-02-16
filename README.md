@@ -1,6 +1,6 @@
 # Simple Counter App
 
-This is a simple web application that demonstrates a basic counter functionality. The app is built using HTML, CSS, and JavaScript. It features a counter with increment and decrement buttons.
+This is a simple web application that demonstrates a basic counter functionality. The app is built using HTML, CSS, and JavaScript. It features a counter with increment and decrement buttons, along with additional features like a reset button and keyboard shortcuts.
 
 ## Usage
 
@@ -12,14 +12,13 @@ This is a simple web application that demonstrates a basic counter functionality
 
 2. Open the `index.html` file in a web browser.
 
-3. Use the "Increment" button to increase the counter value and the "Decrement" button to decrease it. The counter starts at 0.
+3. Use the "Increment" button to increase the counter value, the "Decrement" button to decrease it, and the "Reset" button to reset the counter to zero. Additionally, you can use the up arrow key to increment the counter and the down arrow key to decrement it. The counter starts at 0.
 
 ## Features
 
-- Displays a counter value that can be incremented or decremented.
+- Displays a counter value that can be incremented, decremented, or reset.
 - User-friendly interface with clear buttons for interaction.
 - Responsive design that adapts to different screen sizes.
-
 
 ## Code Structure
 
@@ -28,6 +27,8 @@ This is a simple web application that demonstrates a basic counter functionality
 - **Increment Button**: Clicking the "Increment" button increases the counter value.
 
 - **Decrement Button**: Clicking the "Decrement" button decreases the counter value, but it doesn't go below 0.
+
+- **Reset Button**: Clicking the "Reset" button sets the counter value back to 0.
 
 ## Technologies Used
 
@@ -39,11 +40,11 @@ This is a simple web application that demonstrates a basic counter functionality
 
 ## How it Works
 
-The counter value is stored in a JavaScript variable (`counterValue`). The `updateCounter` function is responsible for updating the displayed counter value on the webpage. The `increment` and `decrement` functions modify the counter value and then call `updateCounter` to reflect the changes.
+The counter value is stored in a JavaScript variable (`counterValue`). The `updateCounter` function is responsible for updating the displayed counter value on the webpage. The `increment` and `decrement` functions modify the counter value accordingly, and the `reset` function sets the counter value back to 0.
 
 ## Customization
 
-Feel free to customize the app by modifying the styles in the `styles.css` page or adding additional features to enhance its functionality.
+Feel free to customize the app by modifying the styles in the `styles.css` file or adding additional features to enhance its functionality.
 
 ## Contributing
 
