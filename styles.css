@@ -41,3 +41,15 @@ h1 {
     border: none;
     cursor: pointer;
 }
+
+#reset-btn {
+    padding: 8px;
+    background-color: #c6c6c6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: gray;
+}
